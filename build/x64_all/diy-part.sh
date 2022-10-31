@@ -7,6 +7,21 @@
 # 如果你的OP是当主路由的话，网关、DNS、广播都不需要，代码前面加 # 注释掉，只保留后台地址和子网掩码就可以
 # 如果你有编译ipv6的话，‘去掉LAN口使用内置的 IPv6 管理’代码前面也加 # 注释掉
 
+mkdir -p files/root
+pushd files/root
+
+## Install oh-my-zsh
+# Clone oh-my-zsh repository
+git clone https://github.com/robbyrussell/oh-my-zsh ./.oh-my-zsh
+
+# Install extra plugins
+git clone https://github.com/zsh-users/zsh-autosuggestions ./.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ./.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-completions ./.oh-my-zsh/custom/plugins/zsh-completions
+
+# Get .zshrc dotfile
+wget https://raw.githubusercontent.com/SuLingGG/OpenWrt-Rpi/main/data/zsh/.zshrc
+
 #添加unblockneteasemusic插件包
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/x64_gxnas-Software
 
