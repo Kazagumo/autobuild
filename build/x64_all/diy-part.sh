@@ -23,13 +23,13 @@ git clone https://github.com/zsh-users/zsh-completions ./.oh-my-zsh/custom/plugi
 wget https://raw.githubusercontent.com/SuLingGG/OpenWrt-Rpi/main/data/zsh/.zshrc
 
 #添加unblockneteasemusic插件包
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/x64_gxnas-Software
+#git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/x64_gxnas-Software
 
 #添加bypass插件包
 git clone https://github.com/kiddin9/openwrt-bypass.git package/x64_gxnas-Software
 
 #添加OpenClash插件包
-git clone https://github.com/vernesong/OpenClash.git package/x64_gxnas-Software
+#git clone https://github.com/vernesong/OpenClash.git package/x64_gxnas-Software
 
 #添加mosdns插件包
 git clone https://github.com/QiuSimons/openwrt-mos.git package/x64_gxnas-Software  
