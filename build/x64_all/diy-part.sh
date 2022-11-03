@@ -29,7 +29,7 @@ wget https://raw.githubusercontent.com/SuLingGG/OpenWrt-Rpi/main/data/zsh/.zshrc
 git clone https://github.com/kiddin9/openwrt-bypass.git package/x64_gxnas-Software
 
 #添加OpenClash插件包
-#git clone https://github.com/vernesong/OpenClash.git package/x64_gxnas-Software
+git clone https://github.com/vernesong/OpenClash.git package/x64_gxnas-Software
 
 #添加mosdns插件包
 git clone https://github.com/QiuSimons/openwrt-mos.git package/x64_gxnas-Software  
